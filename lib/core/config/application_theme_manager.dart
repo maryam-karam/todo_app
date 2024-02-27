@@ -66,6 +66,16 @@ class ApplicationThemeManager {
         color: Colors.black,
       ),
     ),
+    appBarTheme: AppBarTheme(
+      backgroundColor: Colors.transparent,
+      centerTitle: true,
+      elevation: 0,
+      toolbarHeight: 120,
+      iconTheme: IconThemeData(
+        color: Colors.white,
+      ),
+    ),
+
   );
 
   static ThemeData DarkTheme = ThemeData(
@@ -102,6 +112,15 @@ class ApplicationThemeManager {
         fontSize: 15,
         fontWeight: FontWeight.bold,
         color: Colors.black,
+      ),
+    ),
+    appBarTheme: AppBarTheme(
+      backgroundColor: Colors.transparent,
+      centerTitle: true,
+      elevation: 0,
+      toolbarHeight: 120,
+      iconTheme: IconThemeData(
+        color: Color(0xff060E1E),
       ),
     ),
 
