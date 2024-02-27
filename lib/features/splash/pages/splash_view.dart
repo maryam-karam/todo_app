@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import '../../layout_view.dart';
-import '../../login/pages/login_view.dart';
 import '../../settings-provider.dart';
 
 class SplashView extends StatefulWidget {
@@ -22,7 +21,7 @@ class _SplashViewState extends State<SplashView> {
     Timer(
       Duration(seconds: 3),
       () {
-        Navigator.pushReplacementNamed(context, LoginView.routeName);
+        Navigator.pushReplacementNamed(context, LayoutView.routeName);
       },
     );
   }
